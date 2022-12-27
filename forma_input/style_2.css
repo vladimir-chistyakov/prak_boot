@@ -1,0 +1,39 @@
+body {
+  background-color: #ebffe4;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  font-size: 19px;
+  font-family: "Raleway";
+}
+form {
+  background-color: #5cbe3a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: green;
+}
+input {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  /* flex-direction; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+label {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+}
